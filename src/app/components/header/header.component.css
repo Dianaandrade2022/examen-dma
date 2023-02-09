@@ -1,24 +1,36 @@
-header {
-	width:100%; /* Establecemos que el header abarque el 100% del documento */
-	overflow:hidden; /* Eliminamos errores de float */
-	background:#9b64cb;
-
+#logo>img{
+  height: 5vh;
+  position: absolute;
+}
+#logo{
+  width: 15vw;
+  height: 8vh;
+  line-height: 8vh;
+}
+nav{
+  background-color: black;
+  margin-top: 0;
+  padding-top: 0;
+  line-height: 7vh;
+}
+a,li{
+  color: white;
+}
+a:hover{
+  color: white;
+}
+input{
+  width: 63vw;
+  height: 45px;
+  border-right: 0;
+  border-left: 10px;
+}
+.oferta{
+height: 7vh;
+line-height: 7vh;
+}
+p{
+  font-size: 11px;
 }
 
-.wrapper {
-	width:100%; /* Establecemos que el ancho sera del 90% */
-	max-width:100px; /* Aqui le decimos que el ancho máximo sera de 1000px */
-	margin:auto; /* Centramos los elementos */
-	overflow:hidden; /* Eliminamos errores de float */
-}
-header nav {
-	float:right;
-	line-height:200px;
-}
-
-header nav a {
-
-	text-decoration:none;
-	padding: 2px 6px;
-}
 
